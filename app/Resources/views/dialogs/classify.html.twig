@@ -1,0 +1,39 @@
+{# app/Resources/views/dialogs/classify.html.twig #}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block head %}
+            <link rel="stylesheet" href="{{ asset('style.css') }}" />
+            <title>{% block title %}{% endblock %} - Dialog act classifier</title>
+        {% endblock %}
+    </head>
+    <body>
+
+{% block body %}
+<div id="wrapper">
+ <div id="container">
+  <div id="status">
+
+<h1>Dialogue Act Type Classifier</h1>
+<br><br><br>
+
+{{ form_start(form) }}
+  <div class="text">{{ form_label(form.text) }}</div>
+<br>
+  <div class="text_area">{{ form_widget(form.text) }}</div>
+<br>
+
+    <button type="submit">Classify</button>
+{{ form_end(form) }}
+
+<br><br>
+
+<div class="text">{{ result }}</div>
+  </div>
+ </div>
+</div>
+{% endblock %}
+
+    </body>
+</html>

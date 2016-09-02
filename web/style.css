@@ -1,0 +1,99 @@
+body {
+	margin: 0px auto;
+	padding: 0px;
+	border: 0px;
+	width: 50%;
+	font: 75%/120% Arial, Helvetica, sans-serif;
+        text-align: center;
+}
+.box1{
+    padding: 10px;
+	width: 100% auto;
+	background: #f7f7f7;
+	border: solid 1px #c4c4c4;
+	border-right: solid 1px #c4c4c4;
+}
+
+.title1{
+    width: 100% auto;
+	background: #e9e7e7 url(images/arrow-square.gif) no-repeat right -51px;
+	padding: 7px 15px;
+	margin: 0;
+	font: bold 120%/100% Arial, Helvetica, sans-serif;
+	border: solid 1px #c4c4c4;
+	cursor: pointer;
+}
+.tspacer{
+  border-bottom-color: #f7f7f7;
+  border-top-color: #f7f7f7;
+  width: 8px;
+}
+.tspacersp{
+  border-bottom-color: #f7f7f7;
+  border-top-color: #f7f7f7;
+  border-right-color: #f7f7f7;
+  width: 8px;
+}
+.empty{
+  border-right-color: #f7f7f7;
+  border-bottom-color: #f7f7f7;
+}
+.tsila{
+  width: 100%;
+  border: solid 1px #c4c4c4;
+  border-collapse: collapse;
+}
+td{
+  border: solid 1px #c4c4c4;
+  border-collapse: collapse;
+  padding: 2px;
+  text-align: center;
+}
+.ok_img{
+  border: 0;
+  padding: 0;
+  width: 10px;
+}
+.centered{
+    text-align: center;
+    font-size:1.4em;
+}
+.card_img{
+    width: 240px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;	
+	padding: 10px;
+}
+.formbox{
+  width: 100%; 
+  text-align: center;
+  vertical-align: middle;
+  display: table;  
+}
+.formlbl{
+  width:160px; 
+  display:inline-block; 
+  text-align:left; 
+  padding: 10px;
+}
+.formfld{
+  width:140px auto; 
+  display:inline;
+  vertical-align: middle;
+}
+.formsbmt{
+   padding: 10px;
+}
+.errormsg{
+  color: #FF0000;
+}
+.txtresult{
+  font: 250%;
+}
+.fldcls{
+  width:160px;
+}
+.text{
+  font-size: 120%;
+}
